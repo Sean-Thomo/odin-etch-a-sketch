@@ -22,13 +22,4 @@ function app() {
   colorOnHover();
 }
 
-window.onload = app()
-
-// grid.style.gridTemplateColumns = `repeat(${gridSize}, 1fr)`; 
-// grid.style.gridTemplateRows = `repeat(${gridSize}, 1fr)`; 
-
-// for(let i = 0; i < (gridSize*gridSize); i++){ 
-//   let cell = document.createElement('div'); 
-//   cell.style.border = "1px solid grey"; 
-//   grid.insertAdjacentElement("beforeend", cell); 
-// }
+window.onload = app();
