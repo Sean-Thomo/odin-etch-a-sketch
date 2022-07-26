@@ -19,7 +19,6 @@ function createGrid(gridSize) {
 
 function app() {
   createGrid(3);
-  colorOnHover();
 }
 
 window.onload = app();
