@@ -9,3 +9,22 @@
   height: 500px;
   width: 500px;
 }
+
+.container{
+  display: flex;
+}
+
+.container .content{
+  margin: auto;
+}
+
+.customize{
+  display: flex;
+  flex-direction: column;
+  width: 15em;
+  margin: auto;
+}
+
+.customize > * {
+  margin-top: 1em;
+}

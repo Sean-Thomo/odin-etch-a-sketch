@@ -11,12 +11,24 @@
 <body>
   <main>
     <div class="container">
-      <h1>Sketch Pad</h1>
-      <div class="grid" id="grid">
+      <div class="content">
+        <h1>Sketch Pad</h1>
+        <div class="grid" id="grid">
+        </div>
+        <div class="customize">
+          <div class="buttons">
+            <button class="btn" onclick="changeColor('black')">Black</button>
+            <button class="btn" onclick="changeColor('white')">White</button>
+            <button class="btn" onclick="changeColor('random')">Black</button>
+          </div>
+          <label for="squares">Number of squares per side: </label>
+          <input class="input-size" type="number" value="16" onchange="changeSize(this.value)">
+          <button id="setSize">Set Size</button>
+        </div>
+        
       </div>
     </div>
   </main>
-
 
 </body>
 </html>
