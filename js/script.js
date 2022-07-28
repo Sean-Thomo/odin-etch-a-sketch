@@ -1,6 +1,7 @@
-function createGrid(gridSize) {
+function createGrid() {
   const grid = document.getElementById('grid');
-  // const cells = grid.querySelectorAll('div');
+    const x = document.getElementById('grid-size');
+    const gridSize = x.value;
 
   grid.style.gridTemplateRows = `repeat(${gridSize}, 1fr)`;
   grid.style.gridTemplateColumns = `repeat(${gridSize}, 1fr)`;
@@ -15,7 +16,7 @@ function createGrid(gridSize) {
   }
 }
 
-function changeColor( color) {
+function changeColor(color) {
   if (color == 'random'){
     this.style.backgroundColor = randomColor();
   } else {
@@ -28,9 +29,7 @@ function randomColor() {
 }
 
 function app() {
-  createGrid(90);
+  createGrid(16);
 }
 
 window.onload = app();
-
-

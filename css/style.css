@@ -8,16 +8,17 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.container{
+  height: 100vh;
+  display: flex;
+  text-align: center;
+}
+
 .grid{
   display: grid;
   height: 500px;
   width: 500px;
   border: 1px solid black;
-}
-
-.container{
-  display: flex;
-  text-align: center;
 }
 
 .content{
